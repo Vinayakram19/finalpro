@@ -95,6 +95,7 @@ public class CreateOrganizationTest extends BaseAnnotationClass{
         		oip.getTypeInfo().getText();
         //soft.assertEquals(actTypeinfo, type , " org type  is not verified==FAIL");
        //soft.assertAll();
+        		System.out.println("done");
 	}
 
 }
