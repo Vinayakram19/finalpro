@@ -91,6 +91,7 @@ public class BaseAnnotationClass {
 	
 	    public void config_AS() throws Throwable {
 	    	System.out.println("===================close DB connaction=================");
+	    	System.out.println("closed");
          //   dLib.closeDb();
 	    }
     
