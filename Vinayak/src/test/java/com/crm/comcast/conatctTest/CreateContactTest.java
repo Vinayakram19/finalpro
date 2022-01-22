@@ -70,6 +70,7 @@ public class CreateContactTest extends BaseAnnotationClass{
          String  actContactinfo = cip.getContactSucMsg().getText();
          boolean status =  actContactinfo.contains(lastName);
        	 Assert.assertTrue(status ,"Contact name is not verified==FAIL");
+       	 System.out.println();
         
 	}
 	/*

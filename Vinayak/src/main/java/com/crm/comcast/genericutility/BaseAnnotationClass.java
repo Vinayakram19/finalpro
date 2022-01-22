@@ -49,7 +49,7 @@ public class BaseAnnotationClass {
          }else if(BROWSER.equals("ie")){
         	  driver = new InternetExplorerDriver();
         }else {
-        	 driver = new ChromeDriver();
+        	 driver = new FirefoxDriver();
         }
          
          sdriver = driver;
